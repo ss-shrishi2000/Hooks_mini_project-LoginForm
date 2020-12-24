@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600');
+
+#root {
+  display: flex;
+  background-color: rgb(243, 137, 208);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 60%;
+  background-color: rgb(132, 121, 226);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  outline: 0;
+  width:100%; 
+  font: 1rem 'Titillium Web';
+  border: 0;
+  padding:0.8rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: rgb(25, 39, 236) 2px 2px;
+}
+
+button {
+  padding: 2% 5%;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+input:first-of-type {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size:2rem;
+}
+
+h2:first-of-type {
+  margin-bottom: 0;
+}
